@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+	var alvo = '11a22b33c'
+	// Quando for dinamico usa com esse new
+	//var exp  = new RegExp('(\\d\\d)(\\w)', 'g');
+
+	//Quando for fixo usa direto
+	var exp = /(\d\d)(\w)/g;
+
+	console.log(exp.test(alvo));
+	//var resultado = null;
+	//while (resultado = exp.exec(alvo)){
+	//	console.log(resultado);
+	//	console.log(exp.lastIndex);
+	//}
+
+
+	var anoMesDia = '2007-12-31';
+	var exp = /-/g;
+	anoMesDia = anoMesDia.replace(exp, '/');
+
+	console.log(anoMesDia);
+
+	var arquivo = '100,200-150,200;20';
+	//var valores = arquivo.split(',');
+
+	//console.log(valores);
+
+	var exp = /[,;-]/;
+	var valores = arquivo.split(exp);
+	console.log(valores);
+
+	var codigos = 'A121B12112C12212F12G01';
+	var exp = /[A-Za-z]\d+/g
+	var codigosExtraidos = codigos.match(exp);
+
+	console.log(codigosExtraidos);
+
+</script>
+<head>
+	<title>Testando pattern</title>
+</head>
+<body>
+	<form>
+        <input pattern="[0-9]*">
+        <input type="submit" value="Enviar dados">
+    </form>
+</body>
+</html>
