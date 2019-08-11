@@ -9,7 +9,7 @@ Cursos da Carreira  de Desenvolvedor Javascript - Alura
 
 
 
-Os curos de Jquery 1 e 2, estão no repositorio [JQuery---curso-alura](https://github.com/AndreLucasrs/JQuery---curso-alura).
+Os cursos de Jquery 1 e 2, estão no repositorio [JQuery---curso-alura](https://github.com/AndreLucasrs/JQuery---curso-alura).
 
 Atualização: Alura removeu as carreira e criou formações.
 
